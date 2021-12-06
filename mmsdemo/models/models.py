@@ -3,7 +3,7 @@
 from odoo import models, fields, api
 
 
- class mmsdemo(models.Model):
+class mmsdemo(models.Model):
         _inherit='res.partner'
         father_name = fields.Char('father_name')	
 #     _name = 'mmsdemo.mmsdemo'
